@@ -1,8 +1,11 @@
 #!/usr/bin/env python
 import socket
 
-TCP_IP = '78.91.34.147'
-TCP_PORT = 12332
+
+print socket.gethostname()
+
+TCP_IP = 'localhost'
+TCP_PORT = 12331
 BUFFER_SIZE = 1024  # Normally 1024, but we want fast response
 
 print '1'
