@@ -6,7 +6,7 @@
 import socket
 import sys
  
-HOST = '0.0.0.0'   # Symbolic name meaning all available interfaces
+HOST = ''   # Symbolic name meaning all available interfaces
 PORT = 50000 # Arbitrary non-privileged port
  
 # Datagram (udp) socket
