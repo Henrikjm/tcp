@@ -4,7 +4,7 @@ import socket
 
 print socket.gethostname()
 
-TCP_IP = 'octopi'
+TCP_IP = '172.0.0.1'
 TCP_PORT = 12367
 BUFFER_SIZE = 1024  # Normally 1024, but we want fast response
 
