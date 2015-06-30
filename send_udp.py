@@ -13,7 +13,7 @@ except socket.error:
     print 'Failed to create socket'
     sys.exit()
  
-host = '78.91.35.255';
+host = '78.91.34.255';
 port = 50000;
  
 while(1) :
