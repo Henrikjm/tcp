@@ -14,7 +14,7 @@ except socket.error:
     sys.exit()
  
 host = 'localhost';
-port = 8888;
+port = 8288;
  
 while(1) :
     msg = raw_input('Enter message to send : ')
