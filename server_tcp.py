@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 import socket
 
-TCP_IP = '127.0.0.1'
+TCP_IP = '78.91.34.147'
 TCP_PORT = 12332
 BUFFER_SIZE = 1024  # Normally 1024, but we want fast response
 
