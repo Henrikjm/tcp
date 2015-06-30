@@ -5,6 +5,8 @@
  
 import socket   #for sockets
 import sys  #for exit
+
+
  
 # create dgram udp socket
 try:
@@ -12,8 +14,10 @@ try:
 except socket.error:
     print 'Failed to create socket'
     sys.exit()
- 
-host = '78.91.34.147';
+
+s.setsockopt (socket.SOL_SOCKET, socket.SO_BROADCAST, 1)
+
+host = '<broadcast>';
 port = 50005;
  
 while(1) :
