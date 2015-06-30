@@ -7,7 +7,7 @@ import socket
 import sys
  
 HOST = ''   # Symbolic name meaning all available interfaces
-PORT = 50000 # Arbitrary non-privileged port
+PORT = 50005 # Arbitrary non-privileged port
  
 # Datagram (udp) socket
 try :
