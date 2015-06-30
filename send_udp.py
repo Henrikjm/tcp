@@ -13,8 +13,8 @@ except socket.error:
     print 'Failed to create socket'
     sys.exit()
  
-host = 'localhost';
-port = 8288;
+host = '78.91.34.147';
+port = 50000;
  
 while(1) :
     msg = raw_input('Enter message to send : ')
@@ -28,7 +28,7 @@ while(1) :
         reply = d[0]
         addr = d[1]
          
-        print 'Server reply : ' + reply
+        print 'Server reply : ' + reply + addr[0] +':' + str(addr[1])
      
     except socket.error, msg:
         print 'Error Code : ' + str(msg[0]) + ' Message ' + msg[1]

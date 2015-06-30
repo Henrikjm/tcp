@@ -6,8 +6,8 @@
 import socket
 import sys
  
-HOST = ''   # Symbolic name meaning all available interfaces
-PORT = 8288 # Arbitrary non-privileged port
+HOST = '0.0.0.0'   # Symbolic name meaning all available interfaces
+PORT = 50000 # Arbitrary non-privileged port
  
 # Datagram (udp) socket
 try :
