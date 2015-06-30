@@ -3,8 +3,8 @@
 import socket
 
 
-TCP_IP = 'localhost'
-TCP_PORT = 12331
+TCP_IP = 'DMED5338'
+TCP_PORT = 12367
 BUFFER_SIZE = 1024
 MESSAGE = "Hello, World!"
 
