@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 import socket
-
+import time
 
 print socket.gethostname()
 
@@ -21,9 +21,9 @@ print 'Connection address:', addr
 print '6'
 
 while 1:
-  print '7'
   data = conn.recv(BUFFER_SIZE)
   if not data: break
+  elif data == "quit": break
   print "received data:", data
   conn.send(data)  # echo
 

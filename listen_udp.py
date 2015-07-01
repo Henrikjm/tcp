@@ -36,7 +36,7 @@ while 1:
      
     if not data: 
         break
-     
+    
     reply = 'OK...' + data
      
     s.sendto(reply , addr)
